@@ -1,8 +1,8 @@
 import {Routes , Route} from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Projets from "./pages/projets";
-import Home from "./pages/Home";
-import Equipe from "./pages/Equipe.jsx";
+import Projets from "./pages/projets.jsx";
+import Home from "./pages/Home.jsx";
+import Equipe from "./Pages/Equipe.jsx";
 import Contact from "./Pages/contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import { useContext} from "react";
