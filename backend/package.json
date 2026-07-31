@@ -1,0 +1,9 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "serveur.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node servers.js"
+    }
+}
