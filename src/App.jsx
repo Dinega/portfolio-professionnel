@@ -5,10 +5,16 @@ import Home from "./pages/Home";
 import Equipe from "./pages/Equipe";
 import Contact from "./Pages/contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import { useContext} from "react";
+import {AppContext } from "./context/AppContext";
 
 function App () {
+  const { dark ,setDark }= useContext(AppContext);
   return (
     <>
+    <button onClick={() => setDark(!dark)}>
+      {dark ? "Mode clair" : "Mode sombre"}
+    </button>
     <Navbar />
     <Routes>
       <Route path="/" element={<Home/>} /> ; 
