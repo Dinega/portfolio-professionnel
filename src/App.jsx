@@ -2,7 +2,7 @@ import {Routes , Route} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Projets from "./pages/projets";
 import Home from "./pages/Home";
-import Equipe from "./pages/Equipe";
+import Equipe from "./pages/Equipe.jsx";
 import Contact from "./Pages/contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import { useContext} from "react";
